@@ -1,3 +1,9 @@
+<img src="profile.jng" 
+     alt="Profile Photo"
+     width="200"
+     height="200"
+     style="border-radius: 50%; object-fit: cover;">
+
 # Max Sun
 **Student interested in Software, ML & Chip Design**
 
