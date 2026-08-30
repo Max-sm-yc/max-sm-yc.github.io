@@ -2,7 +2,7 @@
 **Student interested in Software, ML & Chip Design**
 
 ## Work
-I've built an automated accounting script for the Birdfeeder, a concessions business at Cincinnati Country Day School. Developed a Python-based financial automation system that ingests Square API transaction data, calculates revenue, cost of goods sold, processing fees, and net income, and generates KPI dashboards for business analysts. Leveraged AI in building out the site.
+Built a Python-based financial automation system for the Birdfeeder, a concessions business at Cincinnati Country Day School. The application ingests Square API transaction data, calculates revenue, cost of goods sold, processing fees, and net income, and generates KPI dashboards for business analysts. Used by the Birdfeeder to automate financial reporting workflows.
 
 [Financial Automation for the Birdfeeder](https://github.com/Max-sm-yc/BirdfeederFinancialData)
 
@@ -17,13 +17,13 @@ Tools:
 Git, Github, VSCode
 
 Concepts:
-OOP, ML, GPU Programming
+OOP, Data Structures, ML, GPU Programming
 
 ## Projects
 
 [Gated Convolution Kernel (CUDA/CUTLASS)](https://github.com/Max-sm-yc/ConvolutionGate)
 
-Developed a custom CUDA implementation of a Gated Convolution kernel using CUTLASS that outperformed PyTorch eager execution and torch.compile on medium-length workloads. Peak outperformance of 42.03% vs torch.compile (Config: B=4, T=128, D=2048, K=4, dtype=float16) and 67.6% vs PyTorch eager (Config: B=4, T=16, D=2048, K=4, dtype=float16). Leveraged AI in learning the ML architecture and implementing the CUTLASS / CUDA framework.
+Developed a custom CUDA implementation of a Gated Convolution kernel using CUTLASS that outperformed PyTorch eager execution and torch.compile on medium-length workloads. Peak outperformance of 42% vs torch.compile and 67.6% vs PyTorch eager. 
 
 ### Foundational Projects
 
