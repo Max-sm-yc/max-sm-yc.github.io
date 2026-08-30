@@ -13,9 +13,13 @@ I've built an automated accounting script for the Birdfeeder, a concessions busi
 
 ## Projects
 
+[Inventory Manager (C++)](https://github.com/Max-sm-yc/inventory_manager)
+
+A C++ project using header and source files, dependencies between classes, and CMAKE to create a terminal-based store inventory manager.
+
 [Library Management (C++)](https://github.com/Max-sm-yc/library_management)
 
-An introductory project using file I/O, classes, and objects in C++ to create a terminal based library management system.
+An introductory project using file I/O, classes, and objects in C++ to create a terminal-based library management system.
 
 [Gated Convolution Kernel](https://github.com/Max-sm-yc/ConvolutionGate)
 
