@@ -12,7 +12,12 @@ https://github.com/Max-sm-yc/BirdfeederFinancialData
 ## Projects
 
 https://github.com/Max-sm-yc/library_management
+
 An introductory project using file I/O, classes, and objects in C++ to create a terminal based library management system.
 
 https://github.com/Max-sm-yc/ConvolutionGate
+
 A Gated Convolution kernel developed with GPT 5.6 that outperforms PyTorch eager and Torch.compile on medium length workloads using CUTLASS and a custom CUDA kernel.
+
+## Contact
+Email: max-sm-yc@gmail.com
