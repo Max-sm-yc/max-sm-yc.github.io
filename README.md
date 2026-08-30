@@ -2,9 +2,9 @@
 <tr>
 <td>
 
-# Max Sun
+<h1>Max Sun</h1>
 
-**Student interested in Software, ML & Chip Design**
+<p><strong>Student interested in Software, ML &amp; Chip Design</strong></p>
 
 </td>
 <td>
@@ -13,7 +13,7 @@
      alt="Profile Photo"
      width="200"
      height="200"
-     style="border-radius: 50%; object-fit: cover;">
+     style="border-radius:50%; object-fit:cover;">
 
 </td>
 </tr>
