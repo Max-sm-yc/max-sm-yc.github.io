@@ -1,11 +1,23 @@
-<img src="profile.jng" 
+<table>
+<tr>
+<td>
+
+# Max Sun
+
+**Student interested in Software, ML & Chip Design**
+
+</td>
+<td>
+
+<img src="profile.png"
      alt="Profile Photo"
      width="200"
      height="200"
      style="border-radius: 50%; object-fit: cover;">
 
-# Max Sun
-**Student interested in Software, ML & Chip Design**
+</td>
+</tr>
+</table>
 
 ## Work
 Built a Python-based financial automation system for the Birdfeeder, a concessions business at Cincinnati Country Day School. The application ingests Square API transaction data, calculates revenue, cost of goods sold, processing fees, and net income, and generates KPI dashboards for business analysts. Used by the Birdfeeder to automate financial reporting workflows.
