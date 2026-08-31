@@ -45,6 +45,10 @@ Developed a custom CUDA implementation of a Gated Convolution kernel using CUTLA
 
 ### Foundational Projects
 
+[Vector Database & Search (C++)](https://github.com/Max-sm-yc/embeddingDB)
+
+A C++ embedding database that allows vector insertion and search. Searching is conducted by cosine similarity and a min heap is used to preserve the top k tokens that are returned. 
+
 [Inventory Manager (C++)](https://github.com/Max-sm-yc/inventory_manager)
 
 A C++ project using header and source files, file-based data persistence, dependencies between classes, and CMAKE to create a terminal-based store inventory manager.
