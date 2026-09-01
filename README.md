@@ -43,19 +43,60 @@ OOP, Data Structures, ML, GPU Programming
 
 Developed a custom CUDA implementation of a Gated Convolution kernel using CUTLASS that outperformed PyTorch eager execution and torch.compile on medium-length workloads. Peak outperformance of 42% vs torch.compile and 67.6% vs PyTorch eager. 
 
+[Tensor C++](https://github.com/Max-sm-yc/tensorcpp)
+
+An ongoing project recreating deep learning functionalities in C++. Intended to be executed on CPU (SIMD Hardware). All dimensions must be multiples of 8 for SIMD execution.
+
+Current features: tensor matadd matmul linear
+
+The main.cpp currently contains an example usage of the linear class.
+
+    \tensorcpp> ./test                                           
+    program start
+    tensor initialized
+    linear layer initialized
+    layer forward
+    rows=1 cols=8 size=8
+    [3.97522, 5.76335, 4.50937, 4.6029, 3.82836, 4.83475, 5.97096, 5.11077, ]
+    
+Upcoming features: Autograd ReLU, non-linearities
+
 ### Foundational Projects
 
 [Vector Database & Search (C++)](https://github.com/Max-sm-yc/embeddingDB)
 
-A C++ embedding database that allows vector insertion and search. Searching is conducted by cosine similarity and a min heap is used to preserve the top k tokens that are returned. 
+A C++ embedding database that allows vector insertion and search. Searching is conducted by cosine similarity (handled by normalizing all vectors inserted in to the database and finding the dot product). A min heap is used to preserve the top k tokens that are returned.
+
+fillDB creates a vectors.bin with random character combinations and embedding vectors. main ingests data in vectors.bin, conducts a search (and can be modified to insert new embeddings) before writing data back into vectors.bin
+
+    \embeddingDB> ./search                                                          
+    Program started           
+    Reading complete          
+    Searching across 100000
+    Searching complete with size 10 returned 
+    1 osjxapwnyz
+    0.37292 shdjppnlkp
+    0.360166 futiyoqwes
+    0.358401 dxositnnah
+    0.356896 vxaebytozi
+    0.346819 bbnpkqgtqd
+    0.341851 bczmqfioct
+    0.340948 garshtabum
+    0.340268 abgitjetvk
+    0.338501 cfnwtcdfje
+    Writing data back
+    Done!
 
 [Inventory Manager (C++)](https://github.com/Max-sm-yc/inventory_manager)
 
 A C++ project using header and source files, file-based data persistence, dependencies between classes, and CMAKE to create a terminal-based store inventory manager.
 
-[Library Management (C++)](https://github.com/Max-sm-yc/library_management)
+## Awards and Programs
 
-A terminal-based library management system written in C++ using object-oriented design, file I/O, and persistent storage for tracking books and user interactions.
+• Leaf Course AI Safety Cohort (Summer 2026, ~10% acceptance rate)
+• Citadel Securities High School Terminal Competition:
+  Team placed 7th of 29
+• HiMCM Meritorious
 
 ## Education
 
@@ -66,9 +107,6 @@ High School Senior | GPA: 4.0
 • SAT: 1570 (800 Math, 770 EBRW)
 • Coursework: Linear Algebra, Differential Equations,
   AP Calculus BC, AP Computer Science A
-• Leaf Course AI Safety Cohort (Summer 2026, ~10% acceptance rate)
-• Citadel Securities High School Terminal Competition:
-  Team placed 7th of 29
 
 ## [Resume](https://raw.githubusercontent.com/Max-sm-yc/max-sm-yc.github.io/main/MaxResume.pdf)
 
