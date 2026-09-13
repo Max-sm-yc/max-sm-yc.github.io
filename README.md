@@ -39,6 +39,10 @@ OOP, Data Structures, ML, GPU Programming
 
 ## Projects
 
+[Artifact Chat Agent](https://github.com/Max-sm-yc/artifact-agent)
+
+Created an agentic chatbot capable of modifying code and text outputs without needing to regenerate entire sequences. The agent creates, modifies, copies artifacts, preventing transcription mistakes that standard chat interfaces can introduce.
+
 [Gated Convolution Kernel (CUDA/CUTLASS)](https://github.com/Max-sm-yc/ConvolutionGate)
 
 Developed a custom CUDA implementation of a Gated Convolution kernel using CUTLASS that outperformed PyTorch eager execution and torch.compile on medium-length workloads. Peak outperformance of 42% vs torch.compile and 67.6% vs PyTorch eager. 
