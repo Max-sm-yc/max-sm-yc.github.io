@@ -35,7 +35,7 @@ Tools:
 Git, Github, VSCode
 
 Concepts:
-OOP, Data Structures, ML, GPU Programming
+OOP, Data Structures, Transformers, Agents & Tools, GPU Programming
 
 ## Projects
 
