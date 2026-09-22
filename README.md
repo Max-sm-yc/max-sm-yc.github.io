@@ -19,70 +19,166 @@
 </tr>
 </table>
 
-## Work
-Built a Python-based financial automation system for the Birdfeeder, a concessions business at Cincinnati Country Day School. The application ingests Square API transaction data, calculates revenue, cost of goods sold, processing fees, and net income, and generates KPI dashboards for business analysts. Used by the Birdfeeder to automate financial reporting workflows.
+**Student, Builder, and Portfolio Manager**
 
-[Financial Automation for the Birdfeeder](https://github.com/Max-sm-yc/BirdfeederFinancialData)
+I build systems that move capital, code, and organizations. My work spans
+software engineering, machine learning, GPU programming, investing, and
+student-led ventures.
 
-## Tech Stack
-Languages:
-Python, C++, Java
+[GitHub](https://github.com/Max-sm-yc) ·
+[Email](mailto:max-sm-yc@gmail.com)
 
-Libraries & Frameworks:
-PyTorch, CUDA C++, LangChain
+---
 
-Tools:
-Git, Github, VSCode
+## Leadership & Enterprise
 
-Concepts:
-OOP, Data Structures, Transformers, AI Agents, RAG, GPU Programming
+### Student Endowment
+**President & Head Portfolio Manager**
 
-## Projects
+- Manage a **$61,000 student endowment**
+- Increased assets under management by **50% during my first year as portfolio manager**
+- Sponsored by Morgan Stanley PWM and Jane Street
+- Implemented a statistical-arbitrage strategy achieving a prod Sharpe above **4.0**
 
-[RAG Pipeline with Jev (TypeScript AI)](https://github.com/Max-sm-yc/Jev-RAG)
+### Birdfeeder
+**Co-Founder & CEO**  
 
-A RAG Pipeline for document search that uses Jev for re-ranking. Performs 70% faster and 72% cheaper on the same prompt vs using the output model for re-ranking.
+- Lead a student-run concessions business with **$53,000 in lifetime revenue**
+- Led an M&A that doubled forward annual recurring revenue to approximately **$50,000**
+- Oversee financial reporting, operations, growth initiatives, and capital allocation
 
-[Artifact Chat Agent](https://github.com/Max-sm-yc/artifact-agent)
+---
 
-Created an agentic chatbot capable of modifying code and text outputs without needing to regenerate entire sequences. The agent creates, modifies, copies artifacts, preventing transcription mistakes that standard chat interfaces can introduce.
+## Technical Work
 
-[Gated Convolution Kernel (CUDA/CUTLASS)](https://github.com/Max-sm-yc/ConvolutionGate)
+### Financial Automation for the Birdfeeder
+**Python · Square API · Financial Analytics**
 
-Developed a custom CUDA implementation of a Gated Convolution kernel using CUTLASS that outperformed PyTorch eager execution and torch.compile on medium-length workloads. Peak outperformance of 42% vs torch.compile and 67.6% vs PyTorch eager. 
+Built a Python-based system that ingests Square transaction data, calculates
+revenue, cost of goods sold, processing fees, and net income, and generates
+KPI dashboards for business analysts.
 
-### Foundational Projects
+The application is used by the Birdfeeder to automate recurring financial
+reporting workflows.
 
-[Tensor C++](https://github.com/Max-sm-yc/tensorcpp)
+[View repository](https://github.com/Max-sm-yc/BirdfeederFinancialData)
 
-A project recreating deep learning functionalities in C++. Intended to be executed on CPU (SIMD Hardware). All dimensions must be multiples of 8 for SIMD execution.
+### Gated Convolution Kernel
+**CUDA C++ · CUTLASS · PyTorch**
 
-Features: tensor matadd matmul linear
+Developed a custom CUDA implementation of a gated convolution kernel using
+CUTLASS.
 
-[Vector Database & Search (C++)](https://github.com/Max-sm-yc/embeddingDB)
+The kernel outperformed PyTorch eager execution and `torch.compile` on
+medium-length workloads, with peak improvements of:
 
-A C++ embedding database that allows vector insertion and search. Searching is conducted by cosine similarity (handled by normalizing all vectors inserted in to the database and finding the dot product). A min heap is used to preserve the top k tokens that are returned.
+- **42% over `torch.compile`**
+- **67.6% over PyTorch eager execution**
 
-fillDB creates a vectors.bin with random character combinations and embedding vectors. main ingests data in vectors.bin, conducts a search (and can be modified to insert new embeddings) before writing data back into vectors.bin
+[View repository](https://github.com/Max-sm-yc/ConvolutionGate)
 
-## Awards and Programs
+### RAG Pipeline with Jev
+**Python · RAG · Vector Search · AI Infrastructure**
 
-• Leaf Course AI Safety Cohort (Summer 2026, ~10% acceptance rate)
-• Citadel Securities High School Terminal Competition:
-  Team placed 7th of 29
-• HiMCM Meritorious
+Built a retrieval-augmented generation pipeline that uses Jev to rerank
+document-search results before final model generation.
+
+In benchmarked reranking workflows, the system achieved:
+
+- **More than 70% lower cost**
+- **72% lower total response time**
+
+[View repository](https://github.com/Max-sm-yc/Jev-RAG)
+
+### Artifact Chat Agent
+**AI Agents · FastAPI · React**
+
+Created an agentic chatbot that produces persistent, versioned code and text
+artifacts.
+
+The agent can create, patch, copy, search, undo, and export artifacts without
+regenerating entire outputs. This reduces token usage and helps prevent
+transcription errors during iterative edits.
+
+[View repository](https://github.com/Max-sm-yc/artifact-agent)
+
+---
+
+## Foundational Engineering Projects
+
+### Tensor C++
+**C++ · SIMD · Linear Algebra**
+
+Recreated foundational deep-learning operations in C++ for CPU execution on
+SIMD hardware.
+
+Current functionality includes:
+
+- Tensor operations
+- Matrix addition
+- Matrix multiplication
+- Linear layers
+
+Dimensions are constrained to multiples of eight for SIMD-oriented execution.
+
+[View repository](https://github.com/Max-sm-yc/tensorcpp)
+
+### Vector Database & Search
+**C++ · Cosine Similarity · Top-K Search**
+
+Built a C++ embedding database supporting vector insertion, persistence, and
+similarity search.
+
+The system normalizes stored embeddings, computes cosine similarity through
+dot products, and uses a min-heap to retain the top-k results.
+
+[View repository](https://github.com/Max-sm-yc/embeddingDB)
+
+---
+
+## Technical Toolkit
+
+### Languages
+Python, C++, Java, CUDA C++
+
+### Libraries & Frameworks
+PyTorch, CUTLASS, LangChain
+
+### Tools
+Git, GitHub, VS Code
+
+### Concepts
+Object-Oriented Programming, Data Structures, Transformers, AI Agents,
+Retrieval-Augmented Generation, GPU Programming, Vector Search,
+Financial Analytics
+
+---
 
 ## Education
 
-Cincinnati Country Day School
-High School Senior | GPA: 4.0
+### Cincinnati Country Day School
+**High School Senior | GPA: 4.0**
 
-• Highest weighted GPA in class for three years
-• SAT: 1570 (800 Math, 770 EBRW)
-• Coursework: Linear Algebra, Differential Equations,
-  AP Calculus BC, AP Computer Science A
+- Highest weighted GPA in class for three years
+- SAT: **1570**, including **800 Math** and **770 EBRW**
+- Coursework includes Linear Algebra, Differential Equations,
+  AP Calculus BC, and AP Computer Science A
 
-## [Resume](https://raw.githubusercontent.com/Max-sm-yc/max-sm-yc.github.io/main/MaxResume.pdf)
+---
+
+## Awards & Programs
+
+- **Leaf Course AI Safety Cohort**, Summer 2026  
+  Approximately 10% acceptance rate
+
+- **Citadel Securities High School Terminal Competition**  
+  Team placed 7th of 29
+
+- **HiMCM**  
+  Meritorious designation
+
+---
 
 ## Contact
-Email: max-sm-yc@gmail.com
+
+**Email:** [max-sm-yc@gmail.com](mailto:max-sm-yc@gmail.com)
