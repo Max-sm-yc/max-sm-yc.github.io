@@ -46,6 +46,7 @@ student-led ventures.
 - Lead a student-run concessions business with **$53,000 in lifetime revenue**
 - Led an M&A that doubled forward annual recurring revenue to approximately **$50,000**
 - Oversee financial reporting, operations, growth initiatives, and capital allocation
+- Contributed over **$5,000 ** in grants to student organizations
 
 ---
 
@@ -85,8 +86,8 @@ document-search results before final model generation.
 
 In benchmarked reranking workflows, the system achieved:
 
-- **More than 70% lower cost**
-- **72% lower total response time**
+- **70% cheaper**
+- **cuts response time by 72%**
 
 [View repository](https://github.com/Max-sm-yc/Jev-RAG)
 
@@ -118,8 +119,6 @@ Current functionality includes:
 - Matrix addition
 - Matrix multiplication
 - Linear layers
-
-Dimensions are constrained to multiples of eight for SIMD-oriented execution.
 
 [View repository](https://github.com/Max-sm-yc/tensorcpp)
 
@@ -160,7 +159,7 @@ Financial Analytics
 **High School Senior | GPA: 4.0**
 
 - Highest weighted GPA in class for three years
-- SAT: **1570**, including **800 Math** and **770 EBRW**
+- SAT: 1570 (800 Math, 770 EBRW)
 - Coursework includes Linear Algebra, Differential Equations,
   AP Calculus BC, and AP Computer Science A
 
